@@ -1,0 +1,31 @@
+{
+  "name": "food_ordering_app",
+  "version": "1.0.0",
+  "description": "This Food ordering app projct",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariusbayizere/Food_ording_App.git"
+  },
+  "author": "Bayizere Marius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariusbayizere/Food_ording_App/issues"
+  },
+  "homepage": "https://github.com/mariusbayizere/Food_ording_App#readme",
+  "devDependencies": {
+    "parcel": "^2.13.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "create-dom": "^1.0.0",
+    "git": "^0.1.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

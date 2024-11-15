@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+body{
+    font-family: 'Outfit';
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    width: 100%;
+    background-color: dodgerblue; 
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.logo{
+    width: 80px;
+    object-fit: cover;
+    padding: 1px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.nav-item ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-item ul li{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+.heading .nav-item ul li{
+    margin-right: 30px;
+}
+
+.res-card{
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    /* background-color: #ccc; */
+    background-color: #93c5fd;
+    /* padding: 5px; */
+    margin: 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.res-card:hover{
+    border: 1px solid dodgerblue;
+}
+
+.res-card .image_card{
+    width: 250px;
+    border-radius: 5px;
+    height: 180px;
+    object-fit: cover;
+    
+}
+.res-card h3{
+    line-height: 15px;
+    margin-left: 10px;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+
+    margin-top: 50px;
+}
